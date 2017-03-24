@@ -1,0 +1,51 @@
+<div class="page-header">
+  <h1>{{ resultTitle }}</h1>
+</div>
+
+<fieldset ng-disabled="showResult">
+  
+  <div class="form-group">
+    <label for="usr">Registration Number :</label>
+    <input type="text" class="form-control" id="usr" ng-model="regNum" placeholder="Enter registration number">
+  </div>
+
+  <div class="form-group">
+    <label for="pwd">Password :</label>
+    <input type="password" class="form-control" id="pwd" ng-model="pass" placeholder="Enter password">
+  </div>
+
+</fieldset>
+
+<button type="submit" class="btn btn-primary" ng-click="viewResults()" ng-disabled="showResult">View Result</button>
+
+<br> <br>
+
+<span ng-show="showResult" class="overlay">
+  
+  <h3>Hi <b>{{ userName }}</b>!</h3> <br>
+  
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Subject</th>
+        <th>Marks</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="(key,value) in examResult">
+        <td>{{key}}</td>
+        <td>{{value}}</td>
+      </tr>
+      <tr class="total">
+        <td>TOTAL</td>
+        <td>{{total}}</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <button type="submit" class="btn btn-success" ng-click="viewAnotherResult()">View Another Result</button>
+  
+</span>
+
+<br>
+<br>

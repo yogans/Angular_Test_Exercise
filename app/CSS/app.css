@@ -1,0 +1,59 @@
+.navbar-inverse {
+    background-color : #00ced1;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color : black;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  background-color : black;
+}
+
+.navbar-inverse .navbar-brand {
+  color : white;
+}
+
+.navbar-inverse .navbar-brand:hover {
+  color : #03a89e;
+  background-color:#d3d3d3;
+  border : 1px solid white;
+}
+
+.footer {
+  background-color : #d3d3d3;
+}
+
+.form-group > input {
+  max-width : 280px;
+  height : 34px !important;
+}
+
+.table-bordered {
+  max-width : 360px;
+}
+
+/* Flexible iFrame */
+
+.Flexible-container {
+    position: relative;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.nav>li>img {
+  padding-top : 10px;
+  padding-bottom : 0px;
+}
+
+.navbar-right > li > span {
+  text-align : middle;
+}
+
+.navbar-right > li > a:hover {
+  background-color : #00ced1 !important;
+}
+
+.total {
+  font-weight : bold;
+}

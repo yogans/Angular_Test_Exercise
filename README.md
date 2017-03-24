@@ -1,1 +1,2 @@
-# Angular_Test_Exercise
+# SPAUnivExamResults
+Repository for sample Single page application demonstration
