@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    
+    <title>
+      #1 University - Exam results
+    </title>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap includes !-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://getbootstrap.com/examples/sticky-footer-navbar/sticky-footer-navbar.css">
+    
+    <!-- Angular Js includes !-->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular-route.js"></script>
+    
+    <!-- local includes -->
+    <link href="index.css" rel="stylesheet">
+    <script src="index.js"></script>
+    
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="jumbotron">
+        <center><div class="userImage"><img src="resources/png/boy.png" alt="user img"/></div><br><h2><a id="login" href="#" data-toggle="modal" data-target="#login-modal">Login</a> to continue..</h2></center>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    	  <div class="modal-dialog">
+  				<div class="loginmodal-container">
+  					<h1>Login to Your Account</h1><br>
+  				  <form onSubmit="return validate();">
+    					<input type="text" id="user" placeholder="Username">
+    					<input type="password" id="pass" placeholder="Password">
+    					<input type="submit" name="login" class="login loginmodal-submit" value="Login">
+    					<span id="message"></span>
+  				  </form>
+  				</div>
+			  </div>
+		  </div>
+    
+  </body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "name": "angular_exercise",
+  "version": "1.0.0",
+  "description": "exam result application",
+  "main": "login.js",
+  "scripts": {
+    "prestart": "npm install",
+    "postinstall": "bower install",
+    "start": "http-server -a localhost -p 8000 -c-1 ./app",
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogans/Angular_Exercise.git"
+  },
+  "author": "yogan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yogans/Angular_Exercise/issues"
+  },
+  "homepage": "https://github.com/yogans/Angular_Exercise#readme",
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "http-server": "^0.9.0",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.5.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-spec-reporter": "0.0.30"
+  }
+}

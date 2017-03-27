@@ -1,0 +1,16 @@
+{
+  "name": "angular_exercise",
+  "description": "exam result application",
+  "main": "login.js",
+  "authors": [
+    "yogan"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/yogans/Angular_Exercise",
+  "devDependencies": {
+    "angular": "^1.6.3",
+    "angular-mocks": "^1.6.3",
+    "angular-route": "^1.6.3",
+    "bootstrap": "^3.3.7"
+  }
+}

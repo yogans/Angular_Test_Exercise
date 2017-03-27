@@ -1,0 +1,7 @@
+/* Flexible iFrame */
+
+.Flexible-container {
+    position: relative;
+    padding-top: 30px;
+    overflow: hidden;
+}

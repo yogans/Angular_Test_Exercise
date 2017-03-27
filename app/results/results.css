@@ -1,0 +1,12 @@
+.form-group > input {
+  max-width : 280px;
+  height : 34px !important;
+}
+
+.table-bordered {
+  max-width : 360px;
+}
+
+.total {
+  font-weight : bold;
+}
